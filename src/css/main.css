@@ -12,3 +12,56 @@ img,
 video {
   display: block;
 }
+
+img {
+  width: 28px;
+}
+
+body {
+  background: #EEE;
+}
+
+.rail {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100vh;
+  background: #FFF;
+  box-shadow: 2px 0px 6px 0px rgba(0, 0, 0, 0.25);
+  padding-top: 50px;
+  justify-content: space-between;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+  width: 160px;
+  margin-left: 20px;
+
+ text-align: center;
+ align-items: center;
+ font-family: Roboto;
+ font-size: 22px;
+ font-weight: 400;
+}
+
+.purple {
+  color: #754FF6;
+}
+
+.orange {
+  color: #E5807C;
+}
